@@ -55,6 +55,7 @@ def main():
         if copy_num >= old_num:
             break
     copy_num = 0
+    
     while True:
         file_name = q.get()
         print("\r已经完成%s的拷贝"%file_name,end='')
